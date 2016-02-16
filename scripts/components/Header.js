@@ -9,8 +9,10 @@ class Header extends React.Component {
     return (
         <header className="banners">
           <div className="pattern">
-            <h1>Bruno Genaro</h1>
-            <h2>Front-End Engineeer</h2>
+            <div className="container-title">
+              <h1>Bruno Genaro</h1>
+              <h2>Front-End Engineer</h2>
+            </div>
           </div>
         </header>
     )

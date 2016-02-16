@@ -146,14 +146,33 @@ ul.order
     border 0
 
 .banners
-  background: url('images/header-1.jpg') center top no-repeat
-  background-size: cover
-  height: 100vh
+  background url('images/header-1.jpg') center top no-repeat #000
+  background-size cover
+  height 100vh
 
   .pattern
-    background: url('images/pattern.png') center repeat
-    height: 100vh
+    background url('images/pattern.png') center repeat
+    height 100vh
+    display -webkit-box;
+    display -moz-box;
+    display -ms-flexbox;
+    display -webkit-flex;
+    display flex;
+    align-items center;
+    justify-content center;
 
+  .container-title
+    border 5px dashed #fff
+    padding 20px
+
+    h1
+      font-size 5rem
+      color titles
+      margin-bottom: 1rem
+
+    h2
+      color #fff
+      margin-bottom 0
 
 // Menu Styles
 .list-of-fish

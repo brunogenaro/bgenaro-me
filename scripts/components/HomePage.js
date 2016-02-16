@@ -14,13 +14,6 @@ import Header from './Header';
 class HomePage extends React.Component {
   mixins: [History]
 
-  goToStore(e) {
-    e.preventDefault();
-
-    let storeId = this.refs.storeId.value;
-    this.history.pushState(null, '/store/' + storeId);
-  }
-
   render() {
     return (
         <div>
